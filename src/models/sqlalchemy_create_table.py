@@ -17,7 +17,6 @@ class Users(Base):
     name = Column(VARCHAR(256), nullable=False)
     age = Column(INTEGER, nullable=True)
     place = Column(VARCHAR(256), nullable=True)
-    gender = Column(VARCHAR(10), nullable=True)
     insert_time = Column(DATETIME, default=dt.now())
 
     def __repr__(self):

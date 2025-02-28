@@ -91,7 +91,8 @@ alembic downgrade -1
 ### 参考文档
 
 1. [Alembic官方文档](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
-2. 
+2. [SQLAlchemy 异步操作](https://www.cnblogs.com/gupingan/p/18300469)
+3. 
 
 
 
