@@ -30,6 +30,11 @@ pip install -r requirements.txt
 - 使用sqlalchemy模块进行CRUD操作: `src/sqlalchemy_crud.py`
 - 使用sqlmodel模块进行CRUD操作: `src/sqlmodel_crud.py`
 
+#### 异步CRUD操作
+
+- 使用sqlalchemy模块进行异步CRUD操作: `src/sqlalchemy_async_crud.py`
+- 使用sqlmodel模块进行异步CRUD操作: `src/sqlmodel_async_crud.py`
+
 
 ### 数据库迁移工具Alembic
 
@@ -92,7 +97,6 @@ alembic downgrade -1
 
 1. [Alembic官方文档](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
 2. [SQLAlchemy 异步操作](https://www.cnblogs.com/gupingan/p/18300469)
-3. 
 
 
 
