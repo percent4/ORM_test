@@ -118,17 +118,17 @@ async def delete_data():
 
 if __name__ == '__main__':
     # 异步插入数据
-    # print("异步插入数据")
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(insert_data())
+    print("异步插入数据")
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(insert_data())
     # 异步查询数据
     # print("异步查询数据")
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(query_data())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(query_data())
     # 异步更新数据
-    # print("异步更新数据")
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(update_data())
+    print("异步更新数据")
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(update_data())
     # 异步删除数据
     print("异步删除数据")
     loop = asyncio.get_event_loop()

@@ -20,6 +20,16 @@ pip install -r requirements.txt
 
 ### 脚本说明
 
+### 如何执行
+
+1. 如果是PyCharm IDE，将src目录设置成source root, 直接执行对应的脚本即可;
+2. 如果是VS Code或者Cursor IDS, 则需设置Python运行环境，再执行对应脚本，命令如下:
+
+```shell
+$ export PYTHONPATH=$PYTHONPATH:/path-to-your-project/ORM_test/src
+$ python src/sqlalchemy_crud.py
+```
+
 #### 表格创建
 
 - 使用sqlalchemy模块创建表格: `src/models/sqlalchemy_create_table.py`
